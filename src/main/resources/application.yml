@@ -1,0 +1,14 @@
+spring:
+    servlet:
+        multipart:
+            max-file-size: 128MB
+            max-request-size: 128MB
+            enabled: true
+
+aws:
+    s3:
+        accessKey: ${AWS_ACCESS_KEY:minioadmin}
+        secretKey: ${AWS_SECRET_KEY:minioadmin}
+        region: eu-central-1
+        bucket: screw-you-2020.testbucket
+        minio-endpoint: http://localhost:9000
