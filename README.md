@@ -14,7 +14,7 @@ mvn spring-boot:run
 
 
 ## Use AWS S3 as storage
-1. To use aws s3 storage (need to set correct credentials using environment variables):
+1. To use aws s3 storage (need to set correct credentials in application.yml using environment variables):
 
 2. Start application (s3 profile will for AWS S3)
 ````
